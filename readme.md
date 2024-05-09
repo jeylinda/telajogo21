@@ -42,3 +42,12 @@ Agora vamos focar no estudo de como foi escrito o nosso CSS. (vejamos abaixo):
     height:80px;
     background-color:yellow;}   
 ```
+<hr>
+NOME
+
+COLAR O CODIGO DO JOGO21.HTML
+
+
+COLAR O CODIGO DO AQUIVO.CSS
+
+
