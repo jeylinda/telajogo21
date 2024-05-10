@@ -14,34 +14,36 @@ com o reposicionamento e ajuste tamanho  deve ficar parecido como abaixo:
 Agora vamos focar no estudo de como foi escrito o nosso CSS. (vejamos abaixo):
 
 ``` css
-.mesa{
-    position: fixed;
-    width:900px;
-    height:600px;
-    background-color: green;
+.mesa{  // mesa esta definindo a class
+    position: fixed; // definido a posição da mesa fixa não muda
+    width:900px; // define a largura 
+    height:600px; // define a altura
+    background-color: green; // define a cor de fundo
       }
-.robot{
-   position: relative;
-   top:5px;
-   left:15px;
-   width:160px;
-   height:60px;
-   background-color: black;  }      
-.jogador{
-    position: relative;
-    top:390px;
-    left:15px;
-    width:160px;
-    height:60px;
-    background-color: black; }   
-.baralho{
-    position: relative;
-    top:200px;
-    left:315px;
-    width:60px;
-    height:80px;
-    background-color:yellow;}   
-```
+.robot{  // define a class do robot
+   position: relative; // define a posição relativa em defino
+   top:5px; // define o topo
+   left:15px; // define a posição a quantidade de pixes da esquerda retorna os caracteres mais à esquerda
+                 //ou seja o "desenho vai ficar do lado esquerdo da tela 
+   width:160px; // define a largura que é de 160 pixes
+   height:60px; // define o tamanho de pix da altura
+   background-color: black;  }     // define a cor de fundo que é preta  
+.jogador{ /// define a class jogador
+    position: relative;  // define a posição relativa eu mudo 
+    top:390px;  // define o topo
+    left:15px; // define os px da esquerda retorna os caracteres mais à esquerda
+                  //ou seja o "desenho vai ficar do lado esquerdo da tela 
+    width:160px; // define o tamnho px da largura
+    height:60px; // define o tamnho da altura em pixes
+    background-color: black; }    // define a cor do fundo que é preta 
+.baralho{   //define a class baralho 
+    position: relative; // define a posição
+    top:200px; // define o tamanho do topo
+    left:315px; // define a posição dos pixes  //ou seja o "desenho vai ficar do lado esquerdo da tela 
+    width:60px; // define o tamnho da largura 
+    height:80px; // define o tamnho da altura 
+    background-color:yellow;}    // define a cor do fundo que é amarelo 
+``` 
 <hr>
 NOME
 
